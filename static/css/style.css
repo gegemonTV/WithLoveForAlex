@@ -2,7 +2,8 @@ body {
 	background: ghostwhite;
 }
 
-h1 {
+header {
+    border: 2px #eee solid;
     color: brown;
     text-align: center;
     padding: 10px;
@@ -10,6 +11,5 @@ h1 {
 
 img {
 	position: absolute;
-	left: 50%;
-	top: 50%;
+	align:center;
 }
