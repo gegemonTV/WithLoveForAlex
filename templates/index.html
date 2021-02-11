@@ -2,9 +2,13 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{ url_for('static', filename= 'css/style.css') }}">
     <title>Testing System</title>
 </head>
 <body>
-Hello
+    <h1>Приложение для проверки домашних заданий учеников</h1>
+    <div>
+        <img src="{{url_for('static', filename='img/spreadshit_img.PNG')}}">
+    </div>
 </body>
 </html>

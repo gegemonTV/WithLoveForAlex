@@ -1,0 +1,15 @@
+body {
+	background: ghostwhite;
+}
+
+h1 {
+    color: brown;
+    text-align: center;
+    padding: 10px;
+}
+
+img {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+}
