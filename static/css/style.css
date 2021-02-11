@@ -2,7 +2,13 @@ body {
 	background: ghostwhite;
 }
 
+#instructions{
+
+}
+
 header {
+	font-family: 'Cyberpunk';
+	font-weight: normal;
     border: 2px #eee solid;
     color: brown;
     text-align: center;
@@ -13,5 +19,23 @@ img {
 	display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
 }
+
+@font-face {
+    font-family: 'New_Zelek';
+    src: url('fonts/New_Zelek.woff2') format('woff2'),
+        url('fonts/New_Zelek.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cyberpunk';
+    src: url('fonts/Cyberpunk-Regular.woff2') format('woff2'),
+        url('fonts/Cyberpunk-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
