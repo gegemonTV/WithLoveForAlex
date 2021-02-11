@@ -32,12 +32,3 @@ img {
     font-display: swap;
 }
 
-@font-face {
-    font-family: 'Cyberpunk';
-    src: url('fonts/Cyberpunk-Regular.woff2') format('woff2'),
-        url('fonts/Cyberpunk-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
