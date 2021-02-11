@@ -1,9 +1,9 @@
 from XLSXParser import Parser
-from flask import Flask
+from flask import Flask, render_template
 
 app = Flask(__name__)
 
 
 @app.route('/')
 def welcome_page():
-    return "Welcome!"
+    return render_template("index.html")
